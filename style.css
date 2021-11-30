@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    background-color: #6F5AB3;
+}
+#container{
+    padding-bottom:80px;
+    background-color:#A299BF;
+    width: 550px;
+    height: 200px;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+ 
+h1{
+    margin: auto;
+    text-justify: auto;
+    color: bisque;
+    font-size: 22px;
+    font-style: unset;
+    font-family: sans-serif;
+    text-transform:uppercase;
+    margin-bottom: 10px;
+    margin-top:20px;
+}
+#adname{
+    width: 400px;
+    height: 30px;
+}
+#adcname{
+    margin-top:10px;
+    padding-bottom: auto;
+    float: left;
+    margin-right: 30px;
+    height: 25px;
+    width:100px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #4F407F;
+    border-radius: 5px;
+}
+li{
+    color: white;
+    list-style: none;
+}
+#giveaway{
+    margin-bottom: 5px;
+    padding-bottom: auto;
+    float: left;
+    margin-right: 30px;
+    height: 25px;
+    width:100px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #4F407F;
+    border-radius: 5px;
+}
+#names{
+
+    padding-top: 35px;  
+    text-align: auto;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#showname{ 
+    text-align: auto;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#giveaway:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: white;
+    color:#4F407F;
+}
+#adcname:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: white;
+    color:#4F407F;
+}

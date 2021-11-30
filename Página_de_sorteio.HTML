@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="./Assets/png-transparent-ticket-drawing-raffle-sorteio-game-angle-child-thumbnail.png" >
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="myscripts.js"></script>
+</head>
+<body>
+    <div id="container">
+        
+        <h1>Coloque aqui abaixo os nomes que deseja sortear:</h1>
+
+        <input type="text" oninput="adcnames" id="adname" placeholder="Escreva aqui os nomes para sortear">
+        
+        <br>
+        <button id ="adcname" onclick="adcnames()" type="submit" value="Iniciar">adicionar</button>
+        <br>
+        <h3 id="names"></h3>
+        <br>
+        <button id="giveaway"onclick="togiveaway()" type="submit" value="Iniciar">sortear</button>
+        <br>
+        <br>
+        <h3 id="showname"></h2>
+
+    </div>
+</body>
+</html>
